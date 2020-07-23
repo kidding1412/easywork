@@ -52,10 +52,11 @@ def x_cols_to_list(sheet_tmp, index=0):
     list_tmp = []
     for i in x_cols[1:]:
         list_tmp.append(i)
+        print('1')
     return map(no_dot, list_tmp)
 
 
-# 打印sheet所有col
+# 打印sheet所有collll
 def print_all_col(sheet_tmp):
     num_col = sheet_tmp.ncols
     while num_col > 0:
